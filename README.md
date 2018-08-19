@@ -1,4 +1,4 @@
-# C#_Application_Development
+# C#Application_Development
 
 This hands-on course builds upon COMP 1451 or equivalent knowledge of object oriented programming.
 Students who already understand OOP learn to build graphical user interfaces (GUIs) and design Windows application software.
