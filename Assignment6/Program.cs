@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using COMP2614Assign06.Business;
+using COMP2614Assign06.Data;
+using COMP2614Assign06.Common;
+
+
+namespace COMP2614Assign06
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            ClientCollection clients = ClientValidation.GetClients();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainForm());
+        }
+    }
+}
